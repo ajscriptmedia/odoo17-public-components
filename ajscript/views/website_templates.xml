@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template 
+        id="ajscript.website_public_component" name="Public Components"
+    >
+        <t t-call="website.layout">
+            <owl-component 
+                name="ajscript.my_public_component"
+            />
+        </t>
+    </template>
+</odoo>
